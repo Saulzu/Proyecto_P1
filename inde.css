@@ -1,0 +1,41 @@
+body {
+		background-image: url("imagenes/bosque.jpg");
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-attachment: fixed;
+		margin: 50px;
+	}
+	
+	a{
+		font-family: batang;
+		text-align: justify;
+		font-size: 240%;
+		text-decoration: none;
+		color: #a42eea;
+	}
+	
+	p{
+		font-family: batang;
+		text-align: justify;
+		font-size: 200%;
+		text-decoration: none;
+		color: #092834;
+	}
+	
+	img {
+		float: none-right;
+		margin-top: 60px;
+	}
+	
+	
+	.columna-izquierda{
+	width: 33.33%;
+	height: 100%;
+	float: left;
+	} 
+	
+	.columna-derecha {
+	width: 66.66%;
+	height: 100%;
+	float: left;
+	}

@@ -1,0 +1,196 @@
+body{
+		margin: 0;
+		
+		background-image: url("imagenes/bosque.jpg");
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-attachment: fixed;
+	}
+
+	h2{
+	color: #FD7644;
+    font-family: batang;
+	text-align: center;
+	}
+
+	h3{
+	color: #7FBD32;
+    font-family: batang;
+	text-align: center;
+	}
+	
+	p{
+	color: #091D34;
+	font-family: verdana;
+	text-align: center;
+	}
+	
+	a{
+	font-family: batang;
+	text-align: justify;
+	text-decoration: none;
+	color: #0099FF;
+	}
+	
+	.cajita3 {
+	background-color: #E7F7D4;
+	width: 900px;
+	height: 5000px;
+	padding: 80px;
+	
+	margin-top: 50px;
+	margin-right: 36%;
+	margin-bottom: 40px;
+	margin-left: 20%;
+	}
+	
+	.hab {
+	color: #091D34;
+	font-family: verdana;
+	text-align: center;
+	}
+	
+	.inter {
+	color: orange;
+	font-size:120%;
+	text-align: center;
+	font-family: bell mt;
+	}
+	
+	.keywords{
+	color:#0099FF;
+	}
+	
+	.texi{
+	color: #091D34;
+	font-family: verdana;
+	text-align: center;
+	font-size: 110%;
+	}
+	
+	.logit{
+	float: right; margin-left: 10px;
+	}
+	
+	
+	.btn {
+	background-color: #091D34;
+	color: white;
+	padding: 15px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+	}
+
+	.menu1 {
+	position: relative;
+	display: inline-block;
+	}
+
+	.menu1-content {
+	display: none;
+	position: absolute;
+	background-color: #e6fff2;
+	min-width: 5px;
+	box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	}
+
+	.menu1-content a {
+	color: black;
+	padding: 5px 5px;
+	text-decoration: none;
+	display: block;
+	}
+
+	.menu1-content a:hover {background-color: #e6fff2}
+
+	.menu1:hover .menu1-content {
+	display: block;
+	}
+
+	.menu1:hover .btn {
+	background-color: #ff0000;
+	padding: 5px 5px;
+	}
+	
+	/*Barra vertical*/
+	ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 15%;
+	background-color: #091D34;
+	position: fixed;
+	height: 5000%;
+	overflow: hidden;
+	}
+
+	.lena {
+	  /*display: block;
+	  color: #000;
+	  padding: 8px 16px;
+	  text-decoration: none;*/
+	  
+		float: left;
+		display: block;
+		color: #000;
+		text-align: center;
+		padding: 8px 16px;
+		text-decoration: none;
+	}
+
+	.lena .active {
+	  background-color: #04AA6D;
+	  color: white;
+	}
+
+	.lena :hover:not(.active) {
+	  background-color: #555;
+	  color: white;
+	}
+	/*Fin Barra vertical*/
+	
+	/*Barra horizontal*/
+	.lin {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #091D34;
+	/*position: fixed;
+	top: 0;
+	width: 100%;*/
+	}
+
+	li {
+	  float: left;
+	}
+
+	li a {
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	}
+
+	li a:hover:not(.act) {
+	  background-color: #111;
+	}
+
+	.act {
+	  background-color: #04AA6D;
+	}
+	/*Fin de Barra horizontal*/
+	
+	.boton {
+	display: inline-block;
+	color: RED;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 12px;
+}
+
